@@ -1,0 +1,28 @@
+<!--
+  Generated template for the StartupPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title class="startup-title">{{startup.name}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding class="project-description">
+  <p>{{startup.userEmail}}</p>
+  <ion-icon name="image" (load)="startup.loaded = false" [hidden]="startup.loaded"></ion-icon>
+  <img src="{{startup.imgUrl}}" (load)="startup.loaded = true" [hidden]="!startup.loaded">
+  <p>Created by:</p>
+  <h4>{{startup.userEmai}}</h4>
+  <br/>
+
+  <p>{{startup.description}}</p>
+
+  <div>
+
+  </div>
+</ion-content>

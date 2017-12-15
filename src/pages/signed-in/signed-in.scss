@@ -1,0 +1,23 @@
+page-signed-in {
+    h2{
+        margin: 0 auto;
+    }
+
+    h1{
+        white-space: normal;
+    }
+
+    .central-img{
+      margin: 0 auto;
+      width: 70%;
+      max-width: 400px;
+    }
+    ion-item{
+        cursor: pointer !important;
+        text-align: center !important;
+        margin: 20px 0 20px 0 !important;
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(189, 190, 191,0.6) !important;
+        -moz-box-shadow: 10px 10px 5px 0px rgba(189, 190, 191,0.6) !important;
+        box-shadow: 10px 10px 5px 0px rgba(189, 190, 191,0.6) !important;
+    }
+}
